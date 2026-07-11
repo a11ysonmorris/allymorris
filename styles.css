@@ -382,6 +382,8 @@ footer p{font-family:var(--mono);font-size:.65rem;color:rgba(250,240,242,0.55);l
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .75s ease,transform .75s ease;}
 .reveal.visible{opacity:1;transform:none;}
 @media(max-width:900px){
+  #cursor,#cursor-ring{display:none;}
+  body{cursor:auto;}
   .hero-photo-float{display:none;}
   .about-layout,.exp-grid,.skills-layout,.awards-grid{grid-template-columns:1fr;}
   nav{padding:1rem 1.5rem;}
